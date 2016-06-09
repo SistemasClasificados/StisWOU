@@ -6,7 +6,7 @@
 package clasificadosregistrarse;
 
 /**
- *
+ *Datos a sdio modificado por Josue Martinez *******
  * @author Marvinn
  */
 public class Datos {
@@ -20,11 +20,16 @@ public class Datos {
     private String contrseña;
     private String repitaContraseña;
     private String marcar;
+    //Modificando
+    
+    private int fechaNac;
+    private String departamento;
+    private int numDui;
 
     public Datos() {
     }
 
-    public Datos(String nombre, String apellido, String direccion, String edad, String sexo, String correo, String contrseña, String repitaContraseña, String marcar) {
+    public Datos(String nombre, String apellido, String direccion, String edad, String sexo, String correo, String contrseña, String repitaContraseña, String marcar, int fechaNac, String departamento, int numDui) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.direccion = direccion;
@@ -34,6 +39,12 @@ public class Datos {
         this.contrseña = contrseña;
         this.repitaContraseña = repitaContraseña;
         this.marcar = marcar;
+        
+        
+        //Modificando
+        this.fechaNac= fechaNac;
+        this.departamentos= departamentos;
+        this.numDui=numDui;
     }
 
     public String getNombre() {
